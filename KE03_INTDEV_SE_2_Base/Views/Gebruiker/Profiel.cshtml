@@ -1,0 +1,16 @@
+﻿@model KE03_INTDEV_SE_2_Base.Views.Gebruiker.ProfielModel
+@{
+    ViewData["Title"] = "Profiel";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-info text-white">
+            <h4>Welkom, @ViewBag.Gebruikersnaam!</h4>
+        </div>
+        <div class="card-body">
+            <p>Je bent succesvol ingelogd.</p>
+            <a href="/Gebruiker/Uitloggen" class="btn btn-danger">Uitloggen</a>
+        </div>
+    </div>
+</div>
